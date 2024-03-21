@@ -6,5 +6,6 @@ int main(void) {
 	//cout : 출력객체 endl : 개행객체
 	std::cout << "Hello World" << std::endl;
 	std::cout << "집가고시포유ㅠ" << std::endl;
+	std::cout << "마라탕후루먹고싶다" << std::endl;
 	return 0;
 } 
