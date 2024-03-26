@@ -10,7 +10,7 @@ int main(void) {
 	printf("%d %d \n", &arr[0], &arr[1]);
 	//주소값 1바이트 만큼의 차이
 	printf("%d %d \n", &str[0], &str[1]);
-//	printf("%d %d \n", &str+0, &str+1);
+	//	printf("%d %d \n", *(str+0), *(str+1));
 	//arr+0에는 차이가 없음
 	return 0;
 
