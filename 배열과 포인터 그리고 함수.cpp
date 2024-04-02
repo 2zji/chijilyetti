@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//함수에서 값을 바꾸기 위해서
+// 메모리를 바꾸기 위해서 
 //배열의 모든 요소를 0으로 바꿔주는 함수
 void erase(int* ptr, int length) {
 
