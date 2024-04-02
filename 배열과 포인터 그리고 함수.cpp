@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 
 //함수에서 값을 바꾸기 위해서
 // 메모리를 바꾸기 위해서 
