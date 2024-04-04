@@ -24,5 +24,11 @@
     <ClCompile Include="01-02함수오버로딩.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="02-03String대입%28복사%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02-02함수오버로딩.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
