@@ -1,21 +1,15 @@
-#include <stdio.h>
-#include<string.h>
+#include <iostream>
+#include<string>
 
 int main(void) {
-	char str[30] = "develop hungry";
-	char str2[30];
+
+	std::string str = "develop hungry";
+	std::string str2;
 	//str에 있는 내용을 str2에 복사
 	//'\0'을 만날 때 까지
-	strcpy(str2, str);
+	str2 = str;
 
-	/*
-	int i = 0;
-	for (; str[i] != '\0'; i++){
-		str2[i] = str[i];
-	}
-	str2[i] = str[i];	//널문자('\0') 복사
-	printf("%s", str2);
-	*/
+	std::cout << str2;
 
 	//str2[0] = str[0];
 	//str2[1] = str[1];
