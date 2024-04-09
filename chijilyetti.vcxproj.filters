@@ -36,5 +36,8 @@
     <ClCompile Include="02-05String문자열비교.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="02-05 String 문자열 비교.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

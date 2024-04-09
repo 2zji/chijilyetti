@@ -32,6 +32,7 @@
     <ClCompile Include="02-04문자추가.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="02-05 String 문자열 비교.cpp" />
     <ClCompile Include="02-05String문자열비교.cpp" />
     <ClCompile Include="call.by.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
