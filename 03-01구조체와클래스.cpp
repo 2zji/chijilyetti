@@ -21,18 +21,25 @@ public:
 	void show(void) {
 		cout << hakbun_ << " ";
 		cout << name_ << endl;
+		
 	}
 private:
-	int hakbun_;
+	int hakbun_;	//구글방식(변수명)	_을 붙임
 	string name_;
 };
 
 int main(void) {
-	Student junseok = Student(21, "여준석");
+	//동적할당: 메모리는 heap에서 할당, 실행(런타임)시 메모리 크기가 정해짐
+	Student* junseok = new Student(21, "여준석");
+
+	//정적할당: 메모리는 stack에서 할당, 컴파일 시 메모리 크기가 정해짐
 	Student  Yeo = Student();
 
-	junseok.show();
+	(*junseok).show();
 	Yeo.show();
+
+	//동적할당 해제
+	delete junseok;
 
 	return 0;
 }
