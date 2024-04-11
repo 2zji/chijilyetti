@@ -16,6 +16,12 @@ public:
 		
 		name_ = name;
 	}
+
+	//클래스의 멤버를 출력
+	void show(void) {
+		cout << hakbun_ << " ";
+		cout << name_ << endl;
+	}
 private:
 	int hakbun_;
 	string name_;
@@ -24,4 +30,9 @@ private:
 int main(void) {
 	Student junseok = Student(21, "여준석");
 	Student  Yeo = Student();
+
+	junseok.show();
+	Yeo.show();
+
+	return 0;
 }
