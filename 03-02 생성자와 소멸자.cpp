@@ -10,8 +10,8 @@ public:
 
 		//'/0'가 들어가기 위해 공간 하나 더 추가
 		name_ = new char[length + 1];
-
 		strcpy(name_, name);	//미사용시 한자 출력
+		cout << "생성자 호출 완료" << endl;
 	}
 
 	//소멸자: 객체가 소멸할 때(메모리에서 지위질 때)호출되는 함수
@@ -33,7 +33,12 @@ private:
 int main(void) {
 	Student* junseok;
 	junseok = new Student(2207, "윤예지");
+	cout << "I'm still hungry -배고파-" << endl;
+	junseok->show();
+
 	delete junseok;
+	cout << "배고파영" << endl;
+
 
 	return 0;
 }
