@@ -31,18 +31,12 @@ private:
 };
 
 int main(void) {
-	int b = 2;
-	int ab = 4;
-	int& cc = ab;
-	cc = b;
+	//일반적인 생성자
+	Student junseok = Student(2207, "윤예지");
+	//복사생성자
+	Student junseok2 = junseok;
 
-	Student* junseok;
-	junseok = new Student(2207, "윤예지");
-	cout << "I'm still hungry -배고파-" << endl;
-	junseok->show();
-
-	delete junseok;
-	cout << "배고파영" << endl;
+	//TODO : 얕은 복사로 인하여 같은 주소(stu.name_, stu2.name_)에서 2번 delete 시도
 
 
 	return 0;
